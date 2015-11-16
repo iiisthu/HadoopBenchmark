@@ -1,0 +1,3 @@
+/dev/sdb		/hdfs/data1		ext4	defaults	0 0
+/dev/sdc		/hdfs/data2		ext4	defaults	0 0
+/dev/sdd		/hdfs/data3		ext4	defaults	0 0

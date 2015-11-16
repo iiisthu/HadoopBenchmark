@@ -1,0 +1,17 @@
+###set java_env
+export JAVA_HOME=/usr/java/jdk1.7.0_71
+export JRE_HOME=/usr/java/jdk1.7.0_71/jre
+export CLASS_PATH=.:$CLASS_PATH:$JAVA_HOME/lib:$JRE_HOME/lib
+export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+###set hadoop_env
+export HADOOP_HOME=/home/hadoop/sdc/hadoop
+export YARN_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export HADOOP_PREFIX=$HADOOP_HOME
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_YARN_HOME=$HADOOP_HOME
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
+export JAVA_LIBRARY_PATH=$HADOOP_COMMON_LIB_NATIVE_DIR:$JAVA_LIBRARY_PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HADOOP_HOME/lib/native
